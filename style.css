@@ -1,0 +1,29 @@
+#home{
+	background-image: url(img/korea3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+}
+
+#judul{
+	margin-top: 150px;
+	text-shadow: 5px 5px 5px #333;
+}
+
+#about{
+	height: 25rem;
+	padding-top: 3rem;
+}
+
+.kontak{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding:1rem;
+}
+
+.kontak p a:visited{
+	color: white;
+}
