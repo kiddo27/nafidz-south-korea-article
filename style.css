@@ -1,3 +1,11 @@
+@font-face{
+	font-family: myFont;
+	src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+
+
 #home{
 	background-image: url(img/korea3.jpg);
 	height: 100vh;
@@ -7,7 +15,8 @@
 }
 
 #judul{
-	margin-top: 150px;
+	font-family: myFont;
+	margin: 150px auto;
 	text-shadow: 5px 5px 5px #333;
 }
 
